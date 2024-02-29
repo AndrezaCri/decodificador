@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="js/script.js"></script>
+
+    <title>Decodificador de Texto.</title>
+</head>
+<body>
+    <header class="topo">
+        <img class="logo" src="assets/logo.png" alt="Logo Alura">
+    </header>
+
+    <section class="container">
+        <div class="text">
+            <textarea id="texto" value="cripto"  class="textarea" placeholder="Digite seu texto aqui..."></textarea>
+        </div>
+        <div class="layout-frame">           
+            <img class="frame" src="assets/Frame.png" alt="avg">
+        </div>
+        <div class="layout-button">
+            <button type="submit" onclick="toggleText(true)" class="button-cripto">Criptografar</button>
+            <button type="reset"  onclick="toggleText(false)" class="button-descripto">Descriptografar</button>
+        </div>
+    </section>
+    <aside>
+        <div class="aside">
+            <label>
+                <textarea class="result-rectangle" placeholder=""></textarea>
+                <div id="resultado" class="result">
+                </div>
+                <div id="result-descript" class="result"></div>
+                <div id="aside-image">
+                    <img class="image-result" src="assets/img.jpg" alt="Imagem do resultado."> 
+                    <h1 class="mensage-result">Nenhuma mensagem encontrada</h1><br> 
+                    <p class="mensage-result-cripto">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+            </label>
+            <div class="btn-layout">
+                <button id="btn-copiar" type="button" class="btn-layout-copiar" onclick="copiarTexto(toggleText)">Copiar Texto</button> 
+            </div> 
+        </div>  
+    </aside>
+    
+    <footer class="footer">
+        <div class="copy">Copyright 2024 © Desenvolvido por Andreza Cristina</div>
+    </footer>
+
+</body>    
+</html>

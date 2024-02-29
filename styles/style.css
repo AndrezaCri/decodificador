@@ -1,0 +1,410 @@
+.topo{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte);
+    box-sizing: border-box;
+    background-color: #619ed5;
+}
+
+body
+.container {
+    color: #f2f5fc;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #619ed5;
+}
+
+.logo{
+    width: 15%;
+    height: 48px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.text{
+    width: 60%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.textarea{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: justify;
+    border: none;
+    background-color: #619ed5;
+}
+
+.result{
+    color: #495057; 
+    z-index: 2;
+    position: absolute;
+    padding: 10px;
+    font-size: 30px;
+    top: 10px;
+}
+
+.layout-button{
+    width: 328px;
+    height: 67px;
+    top: 500px;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    left: 210px;
+}
+
+.button-cripto{
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button-descripto{
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border-radius: 24px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    text-align: center;
+}
+
+.btn-layout-copiar{
+    position: absolute;
+    width: 300px;
+    height: 67px;
+    top: 360px;
+    text-align: center;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+.layout-frame{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 252px;
+    height: 18px;
+    left: 240px;
+    top: 451px;
+}
+
+.frame{
+    width: 252px;
+    height: 18px;
+    top: 851px;
+    left: 240px;
+    gap: 8px;
+}
+
+.aside{
+    position: absolute;
+    width: 30%;
+    height: 450px;
+    left: 746px;
+    top: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+    
+.result-rectangle{
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    align-items: flex-end;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px ;
+    border-color: #0A3871; 
+}   
+
+.image-result{
+    position: absolute;
+    width: 60%;
+    padding: 5px;
+    right: 70px;
+    display: flex;
+    top: 150px;
+    justify-content: flex-start;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.mensage-result{
+    position: absolute;
+    width: 319px;
+    height: 23px;
+    top: 319px;
+    right: 5px;
+    text-align: center;
+    font-size: 23px;
+    line-height: 120%;
+    color: #343A40;
+} 
+
+.mensage-result-cripto{
+    position: absolute;
+    width: 319px;
+    height: 23px;
+    top: 370px;
+    right: 10px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 120%;
+    color: #343A40;
+}
+
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    background-color: #0A3871;
+    text-align: center; 
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+   
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+#btn-copiar{
+    display: none;
+}
+
+    @media screen and (max-width: 778px) {
+    .topo {
+        width: 768px;
+        background: #F3F5FC;
+    }
+
+    body .container {
+        position: relative;
+        width: 768px;
+        height: 1174px;
+        background: #F3F5FC; 
+    }
+
+    .logo {
+        width: 15%;
+        height: 48px;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+
+    .text {
+        position: absolute;
+        width: 688px;
+        height: 48px;
+        left: 40px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+        text-decoration: #0A3871;
+
+
+    }
+
+    .textarea {
+        font-family: Inter;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: justify;
+        border: none;
+        background-color: #f2f5fc;
+        text-decoration: #343A40;
+    }
+
+    .layout-button {
+        width: 668px;
+        height: 67px;
+        top: 479px;
+        padding: 0px;
+        gap: 8px;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        left: 52px;
+    }
+
+    .button-cripto{
+        width: 328px;
+        height: 67px;
+        background: #0A3871;
+        border-radius: 24px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        color: white;
+        font-size: 25px;
+    }
+
+    .button-descripto{
+       color:  rgba(10, 56, 113, 1);
+       font-size: 25px;
+    }
+
+    .layout-frame {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        position: absolute;
+        width: 252px;
+        height: 18px;
+        left: 240px;
+    }
+
+    .frame {
+        width: 252px;
+        height: 18px;
+        top: 851px;
+        gap: 8px;
+        top: auto;
+    }
+
+    .aside {
+        position: absolute;
+        width: 746px;
+        height: 266px;
+        left: 0px;
+        right: 0;
+        top: 662px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+            
+    }
+
+    .result-rectangle {
+        width: 91%;
+        height: 247px;
+        position: absolute;
+        right: 10px;
+        left: 31px;
+        margin: 5px;
+        padding: 0px;
+    }
+
+    .image-result {
+       display: none;
+    }
+
+    .mensage-result {
+        position: absolute;
+        width: 624px;
+        height: 29px;
+        top: 44px;
+        right: 87px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 120%;
+        color: #343A40;
+    }
+
+    .mensage-result-cripto {
+        position: absolute;
+        width: 425px;
+        height: 27px;
+        top: 86px;
+        right: 168px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 120%;
+        color: gray;
+    }
+
+    .footer {
+        width: 768px;
+        height: 40px;
+        display: flex;
+        justify-content: center; 
+        background-color: #0A3871;
+        text-align: center; 
+        position: absolute;
+        padding: 0;
+        margin: 0;
+    }
+
+    .copy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        box-sizing: border-box;
+    }
+
+    #btn-copiar {
+        display: none;
+    }
+
+    .btn-layout {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+        text-align: center;
+    }
+
+    .btn-layout-copiar {
+        position: absolute;
+        width: 300px;
+        height: 203px;
+        top: 68px;
+        text-align: center;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+    }
+}
+
+
