@@ -36,6 +36,7 @@ Você pode entrar em contato comigo por meio dos seguintes canais:
 | LinkedIn   | [Andreza Cristina](https://www.linkedin.com/in/andreza-cristina-/) |
 | Telefone   | +55 11 94120-1453                  |
 
+| Link do Projeto | (https://andrezacri.github.io/decodificador/)
 ---
 
 Desenvolvido por Andreza Cristina.
